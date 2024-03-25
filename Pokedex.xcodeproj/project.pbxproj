@@ -11,6 +11,13 @@
 		8FA332532BB0CA0400483CFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332522BB0CA0400483CFD /* ContentView.swift */; };
 		8FA332552BB0CA0500483CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA332542BB0CA0500483CFD /* Assets.xcassets */; };
 		8FA332592BB0CA0500483CFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA332582BB0CA0500483CFD /* Preview Assets.xcassets */; };
+		8FA332602BB0CA7300483CFD /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3325F2BB0CA7300483CFD /* PokemonView.swift */; };
+		8FA332622BB0CAA300483CFD /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332612BB0CAA300483CFD /* Pokemon.swift */; };
+		8FA332662BB0D05400483CFD /* Abilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332652BB0D05400483CFD /* Abilities.swift */; };
+		8FA332682BB0D77700483CFD /* Characteristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332672BB0D77700483CFD /* Characteristics.swift */; };
+		8FA3326A2BB0D7D900483CFD /* Egg Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332692BB0D7D900483CFD /* Egg Groups.swift */; };
+		8FA3326C2BB0D81D00483CFD /* Genders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3326B2BB0D81D00483CFD /* Genders.swift */; };
+		8FA3326E2BB0D8E500483CFD /* Growth Rates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3326D2BB0D8E500483CFD /* Growth Rates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		8FA332542BB0CA0500483CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FA332562BB0CA0500483CFD /* Pokedex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pokedex.entitlements; sourceTree = "<group>"; };
 		8FA332582BB0CA0500483CFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FA3325F2BB0CA7300483CFD /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
+		8FA332612BB0CAA300483CFD /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		8FA332652BB0D05400483CFD /* Abilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abilities.swift; sourceTree = "<group>"; };
+		8FA332672BB0D77700483CFD /* Characteristics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characteristics.swift; sourceTree = "<group>"; };
+		8FA332692BB0D7D900483CFD /* Egg Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Egg Groups.swift"; sourceTree = "<group>"; };
+		8FA3326B2BB0D81D00483CFD /* Genders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genders.swift; sourceTree = "<group>"; };
+		8FA3326D2BB0D8E500483CFD /* Growth Rates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Growth Rates.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,8 @@
 			children = (
 				8FA332502BB0CA0400483CFD /* PokedexApp.swift */,
 				8FA332522BB0CA0400483CFD /* ContentView.swift */,
+				8FA3325F2BB0CA7300483CFD /* PokemonView.swift */,
+				8FA332632BB0CD1100483CFD /* Model */,
 				8FA332542BB0CA0500483CFD /* Assets.xcassets */,
 				8FA332562BB0CA0500483CFD /* Pokedex.entitlements */,
 				8FA332572BB0CA0500483CFD /* Preview Content */,
@@ -67,6 +83,27 @@
 				8FA332582BB0CA0500483CFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8FA332632BB0CD1100483CFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FA332642BB0D01300483CFD /* Pokemon */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FA332642BB0D01300483CFD /* Pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				8FA332652BB0D05400483CFD /* Abilities.swift */,
+				8FA332672BB0D77700483CFD /* Characteristics.swift */,
+				8FA332692BB0D7D900483CFD /* Egg Groups.swift */,
+				8FA3326B2BB0D81D00483CFD /* Genders.swift */,
+				8FA3326D2BB0D8E500483CFD /* Growth Rates.swift */,
+				8FA332612BB0CAA300483CFD /* Pokemon.swift */,
+			);
+			path = Pokemon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA3326E2BB0D8E500483CFD /* Growth Rates.swift in Sources */,
+				8FA3326C2BB0D81D00483CFD /* Genders.swift in Sources */,
+				8FA332682BB0D77700483CFD /* Characteristics.swift in Sources */,
+				8FA332602BB0CA7300483CFD /* PokemonView.swift in Sources */,
+				8FA3326A2BB0D7D900483CFD /* Egg Groups.swift in Sources */,
+				8FA332622BB0CAA300483CFD /* Pokemon.swift in Sources */,
 				8FA332532BB0CA0400483CFD /* ContentView.swift in Sources */,
 				8FA332512BB0CA0400483CFD /* PokedexApp.swift in Sources */,
+				8FA332662BB0D05400483CFD /* Abilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,10 +336,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.anirudhrao.Pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -330,10 +375,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.anirudhrao.Pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};

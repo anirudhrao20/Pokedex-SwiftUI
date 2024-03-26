@@ -9,7 +9,7 @@ struct GrowthRate: Identifiable, Codable {
     var id: Int
     var name: String
     var formula: String
-    var descriptioms: [Description]
+    var descriptions: [Description]
     var levels: [GrowthRateExperienceLevel]
     var pokemon_species: [PokemonSpecies]
 }

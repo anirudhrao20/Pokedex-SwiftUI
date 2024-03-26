@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F7478A22BB28A6C008136DF /* Natures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478A12BB28A6C008136DF /* Natures.swift */; };
+		8F7478A42BB28BDF008136DF /* Pokeathlon Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478A32BB28BDF008136DF /* Pokeathlon Stats.swift */; };
+		8F7478A62BB28F3D008136DF /* Pokemon Location Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478A52BB28F3D008136DF /* Pokemon Location Areas.swift */; };
+		8F7478A82BB29065008136DF /* Pokemon Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478A72BB29065008136DF /* Pokemon Colors.swift */; };
+		8F7478AA2BB29164008136DF /* Pokemon Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478A92BB29164008136DF /* Pokemon Forms.swift */; };
+		8F7478AC2BB292D8008136DF /* Pokemon Habitats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478AB2BB292D8008136DF /* Pokemon Habitats.swift */; };
+		8F7478AE2BB2936E008136DF /* Pokemon Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478AD2BB2936E008136DF /* Pokemon Shapes.swift */; };
+		8F7478B02BB293FB008136DF /* Pokemon Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478AF2BB293FB008136DF /* Pokemon Species.swift */; };
+		8F7478B22BB296A1008136DF /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478B12BB296A1008136DF /* Stats.swift */; };
+		8F7478B42BB297B6008136DF /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478B32BB297B6008136DF /* Types.swift */; };
+		8F7478B72BB29930008136DF /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478B62BB29930008136DF /* Languages.swift */; };
+		8F7478B92BB29974008136DF /* Common Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478B82BB29974008136DF /* Common Models.swift */; };
 		8FA332512BB0CA0400483CFD /* PokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332502BB0CA0400483CFD /* PokedexApp.swift */; };
 		8FA332532BB0CA0400483CFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332522BB0CA0400483CFD /* ContentView.swift */; };
 		8FA332552BB0CA0500483CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA332542BB0CA0500483CFD /* Assets.xcassets */; };
@@ -14,13 +26,25 @@
 		8FA332602BB0CA7300483CFD /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3325F2BB0CA7300483CFD /* PokemonView.swift */; };
 		8FA332622BB0CAA300483CFD /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332612BB0CAA300483CFD /* Pokemon.swift */; };
 		8FA332662BB0D05400483CFD /* Abilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332652BB0D05400483CFD /* Abilities.swift */; };
-		8FA332682BB0D77700483CFD /* Characteristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332672BB0D77700483CFD /* Characteristics.swift */; };
+		8FA332682BB0D77700483CFD /* Characteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332672BB0D77700483CFD /* Characteristic.swift */; };
 		8FA3326A2BB0D7D900483CFD /* Egg Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332692BB0D7D900483CFD /* Egg Groups.swift */; };
 		8FA3326C2BB0D81D00483CFD /* Genders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3326B2BB0D81D00483CFD /* Genders.swift */; };
 		8FA3326E2BB0D8E500483CFD /* Growth Rates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3326D2BB0D8E500483CFD /* Growth Rates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F7478A12BB28A6C008136DF /* Natures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Natures.swift; sourceTree = "<group>"; };
+		8F7478A32BB28BDF008136DF /* Pokeathlon Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokeathlon Stats.swift"; sourceTree = "<group>"; };
+		8F7478A52BB28F3D008136DF /* Pokemon Location Areas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon Location Areas.swift"; sourceTree = "<group>"; };
+		8F7478A72BB29065008136DF /* Pokemon Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon Colors.swift"; sourceTree = "<group>"; };
+		8F7478A92BB29164008136DF /* Pokemon Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon Forms.swift"; sourceTree = "<group>"; };
+		8F7478AB2BB292D8008136DF /* Pokemon Habitats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon Habitats.swift"; sourceTree = "<group>"; };
+		8F7478AD2BB2936E008136DF /* Pokemon Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon Shapes.swift"; sourceTree = "<group>"; };
+		8F7478AF2BB293FB008136DF /* Pokemon Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon Species.swift"; sourceTree = "<group>"; };
+		8F7478B12BB296A1008136DF /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		8F7478B32BB297B6008136DF /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		8F7478B62BB29930008136DF /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		8F7478B82BB29974008136DF /* Common Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Common Models.swift"; sourceTree = "<group>"; };
 		8FA3324D2BB0CA0400483CFD /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA332502BB0CA0400483CFD /* PokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexApp.swift; sourceTree = "<group>"; };
 		8FA332522BB0CA0400483CFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,7 +54,7 @@
 		8FA3325F2BB0CA7300483CFD /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
 		8FA332612BB0CAA300483CFD /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		8FA332652BB0D05400483CFD /* Abilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abilities.swift; sourceTree = "<group>"; };
-		8FA332672BB0D77700483CFD /* Characteristics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characteristics.swift; sourceTree = "<group>"; };
+		8FA332672BB0D77700483CFD /* Characteristic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characteristic.swift; sourceTree = "<group>"; };
 		8FA332692BB0D7D900483CFD /* Egg Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Egg Groups.swift"; sourceTree = "<group>"; };
 		8FA3326B2BB0D81D00483CFD /* Genders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genders.swift; sourceTree = "<group>"; };
 		8FA3326D2BB0D8E500483CFD /* Growth Rates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Growth Rates.swift"; sourceTree = "<group>"; };
@@ -47,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F7478B52BB29916008136DF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8F7478B62BB29930008136DF /* Languages.swift */,
+				8F7478B82BB29974008136DF /* Common Models.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		8FA332442BB0CA0400483CFD = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				8FA332642BB0D01300483CFD /* Pokemon */,
+				8F7478B52BB29916008136DF /* Utility */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,11 +131,21 @@
 			isa = PBXGroup;
 			children = (
 				8FA332652BB0D05400483CFD /* Abilities.swift */,
-				8FA332672BB0D77700483CFD /* Characteristics.swift */,
+				8FA332672BB0D77700483CFD /* Characteristic.swift */,
 				8FA332692BB0D7D900483CFD /* Egg Groups.swift */,
 				8FA3326B2BB0D81D00483CFD /* Genders.swift */,
 				8FA3326D2BB0D8E500483CFD /* Growth Rates.swift */,
+				8F7478A12BB28A6C008136DF /* Natures.swift */,
+				8F7478A32BB28BDF008136DF /* Pokeathlon Stats.swift */,
 				8FA332612BB0CAA300483CFD /* Pokemon.swift */,
+				8F7478A52BB28F3D008136DF /* Pokemon Location Areas.swift */,
+				8F7478A72BB29065008136DF /* Pokemon Colors.swift */,
+				8F7478A92BB29164008136DF /* Pokemon Forms.swift */,
+				8F7478AB2BB292D8008136DF /* Pokemon Habitats.swift */,
+				8F7478AD2BB2936E008136DF /* Pokemon Shapes.swift */,
+				8F7478AF2BB293FB008136DF /* Pokemon Species.swift */,
+				8F7478B12BB296A1008136DF /* Stats.swift */,
+				8F7478B32BB297B6008136DF /* Types.swift */,
 			);
 			path = Pokemon;
 			sourceTree = "<group>";
@@ -176,13 +220,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7478AA2BB29164008136DF /* Pokemon Forms.swift in Sources */,
+				8F7478B22BB296A1008136DF /* Stats.swift in Sources */,
+				8F7478B92BB29974008136DF /* Common Models.swift in Sources */,
 				8FA3326E2BB0D8E500483CFD /* Growth Rates.swift in Sources */,
+				8F7478A42BB28BDF008136DF /* Pokeathlon Stats.swift in Sources */,
+				8F7478B42BB297B6008136DF /* Types.swift in Sources */,
+				8F7478AC2BB292D8008136DF /* Pokemon Habitats.swift in Sources */,
 				8FA3326C2BB0D81D00483CFD /* Genders.swift in Sources */,
-				8FA332682BB0D77700483CFD /* Characteristics.swift in Sources */,
+				8FA332682BB0D77700483CFD /* Characteristic.swift in Sources */,
+				8F7478A82BB29065008136DF /* Pokemon Colors.swift in Sources */,
+				8F7478B72BB29930008136DF /* Languages.swift in Sources */,
 				8FA332602BB0CA7300483CFD /* PokemonView.swift in Sources */,
+				8F7478A22BB28A6C008136DF /* Natures.swift in Sources */,
 				8FA3326A2BB0D7D900483CFD /* Egg Groups.swift in Sources */,
 				8FA332622BB0CAA300483CFD /* Pokemon.swift in Sources */,
+				8F7478AE2BB2936E008136DF /* Pokemon Shapes.swift in Sources */,
 				8FA332532BB0CA0400483CFD /* ContentView.swift in Sources */,
+				8F7478B02BB293FB008136DF /* Pokemon Species.swift in Sources */,
+				8F7478A62BB28F3D008136DF /* Pokemon Location Areas.swift in Sources */,
 				8FA332512BB0CA0400483CFD /* PokedexApp.swift in Sources */,
 				8FA332662BB0D05400483CFD /* Abilities.swift in Sources */,
 			);

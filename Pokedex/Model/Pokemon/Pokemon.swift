@@ -33,43 +33,64 @@ struct PokemonAbility: Codable {
     var ability: Ability
 }
 
-struct PokemonForm: Codable {
+struct PokemonType: Codable {
     var slot: Int
     var type: Type
 }
 
-struct VersionGameIndex: Codable {
-    
-}
-
-struct PokemonHeldItem: Codable {
-    
-}
-
-struct PokemonMove: Codable {
-    
+struct PokemonFormType: Codable {
+    var slot: Int
+    var type: Type
 }
 
 struct PokemonTypePast: Codable {
-    
+    var generation: Generation
+    var types: [PokemonType]
 }
 
-struct PokemonSprites: Codable {
-    
+struct PokemonHeldItem: Codable {
+    var item: Item
+    var version_details: [PokemonHeldItemVersion]
 }
 
-struct PokemonCries: Codable {
-    
+struct PokemonHeldItemVersion: Codable {
+    var version: Version
+    var rarity: Int
 }
 
-struct PokemonSpecies: Codable {
-    
+struct PokemonMove: Codable {
+    var move: Move
+    var version_group_details: [PokemonMoveVersion]
+}
+
+struct PokemonMoveVersion: Codable {
+    var move_learn_method: MoveLearnMethod
+    var version_group: VersionGroup
+    var level_learned_at: Int
 }
 
 struct PokemonStat: Codable {
-    
+    var stat: Stat
+    var effor: Int
+    var base_stat: Int
 }
 
-struct PokemonType: Codable {
-    
+struct PokemonSprites: Codable {
+    var front_default: String
+    var front_shiny: String
+    var front_female: String
+    var front_shiny_female: String
+    var back_default: String
+    var back_shiny: String
+    var back_female: String
+    var back_shiny_female: String
 }
+
+struct PokemonCries: Codable {
+    var latest: String
+    var legacy: String
+}
+
+
+
+

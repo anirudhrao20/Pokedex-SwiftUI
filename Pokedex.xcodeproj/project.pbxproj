@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F2D018B2BC0FEA300C686FE /* Berries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D018A2BC0FEA300C686FE /* Berries.swift */; };
+		8F2D018D2BC0FFE700C686FE /* Berry Firmnesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D018C2BC0FFE700C686FE /* Berry Firmnesses.swift */; };
+		8F2D018F2BC1003400C686FE /* Berry Flavors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D018E2BC1003400C686FE /* Berry Flavors.swift */; };
 		8F7478A22BB28A6C008136DF /* Natures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478A12BB28A6C008136DF /* Natures.swift */; };
 		8F7478A42BB28BDF008136DF /* Pokeathlon Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478A32BB28BDF008136DF /* Pokeathlon Stats.swift */; };
 		8F7478A62BB28F3D008136DF /* Pokemon Location Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7478A52BB28F3D008136DF /* Pokemon Location Areas.swift */; };
@@ -33,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F2D018A2BC0FEA300C686FE /* Berries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berries.swift; sourceTree = "<group>"; };
+		8F2D018C2BC0FFE700C686FE /* Berry Firmnesses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Berry Firmnesses.swift"; sourceTree = "<group>"; };
+		8F2D018E2BC1003400C686FE /* Berry Flavors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Berry Flavors.swift"; sourceTree = "<group>"; };
 		8F7478A12BB28A6C008136DF /* Natures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Natures.swift; sourceTree = "<group>"; };
 		8F7478A32BB28BDF008136DF /* Pokeathlon Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokeathlon Stats.swift"; sourceTree = "<group>"; };
 		8F7478A52BB28F3D008136DF /* Pokemon Location Areas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon Location Areas.swift"; sourceTree = "<group>"; };
@@ -71,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F2D01892BC0FE9700C686FE /* Berries */ = {
+			isa = PBXGroup;
+			children = (
+				8F2D018A2BC0FEA300C686FE /* Berries.swift */,
+				8F2D018C2BC0FFE700C686FE /* Berry Firmnesses.swift */,
+				8F2D018E2BC1003400C686FE /* Berry Flavors.swift */,
+			);
+			path = Berries;
+			sourceTree = "<group>";
+		};
 		8F7478B52BB29916008136DF /* Utility */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +137,7 @@
 		8FA332632BB0CD1100483CFD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8F2D01892BC0FE9700C686FE /* Berries */,
 				8FA332642BB0D01300483CFD /* Pokemon */,
 				8F7478B52BB29916008136DF /* Utility */,
 			);
@@ -237,10 +254,13 @@
 				8FA332622BB0CAA300483CFD /* Pokemon.swift in Sources */,
 				8F7478AE2BB2936E008136DF /* Pokemon Shapes.swift in Sources */,
 				8FA332532BB0CA0400483CFD /* ContentView.swift in Sources */,
+				8F2D018D2BC0FFE700C686FE /* Berry Firmnesses.swift in Sources */,
 				8F7478B02BB293FB008136DF /* Pokemon Species.swift in Sources */,
+				8F2D018B2BC0FEA300C686FE /* Berries.swift in Sources */,
 				8F7478A62BB28F3D008136DF /* Pokemon Location Areas.swift in Sources */,
 				8FA332512BB0CA0400483CFD /* PokedexApp.swift in Sources */,
 				8FA332662BB0D05400483CFD /* Abilities.swift in Sources */,
+				8F2D018F2BC1003400C686FE /* Berry Flavors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

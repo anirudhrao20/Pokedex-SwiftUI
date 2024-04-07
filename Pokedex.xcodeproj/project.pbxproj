@@ -33,6 +33,9 @@
 		8FA3326A2BB0D7D900483CFD /* Egg Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA332692BB0D7D900483CFD /* Egg Groups.swift */; };
 		8FA3326C2BB0D81D00483CFD /* Genders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3326B2BB0D81D00483CFD /* Genders.swift */; };
 		8FA3326E2BB0D8E500483CFD /* Growth Rates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3326D2BB0D8E500483CFD /* Growth Rates.swift */; };
+		8FFE43F12BC2EDFF00BFAAB9 /* Contest Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE43F02BC2EDFF00BFAAB9 /* Contest Types.swift */; };
+		8FFE43F32BC2EF6D00BFAAB9 /* Contest Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE43F22BC2EF6D00BFAAB9 /* Contest Effects.swift */; };
+		8FFE43F52BC2EFCA00BFAAB9 /* Super Contest Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE43F42BC2EFCA00BFAAB9 /* Super Contest Effects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		8FA332692BB0D7D900483CFD /* Egg Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Egg Groups.swift"; sourceTree = "<group>"; };
 		8FA3326B2BB0D81D00483CFD /* Genders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genders.swift; sourceTree = "<group>"; };
 		8FA3326D2BB0D8E500483CFD /* Growth Rates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Growth Rates.swift"; sourceTree = "<group>"; };
+		8FFE43F02BC2EDFF00BFAAB9 /* Contest Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contest Types.swift"; sourceTree = "<group>"; };
+		8FFE43F22BC2EF6D00BFAAB9 /* Contest Effects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contest Effects.swift"; sourceTree = "<group>"; };
+		8FFE43F42BC2EFCA00BFAAB9 /* Super Contest Effects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Super Contest Effects.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				8F2D01892BC0FE9700C686FE /* Berries */,
+				8FFE43EF2BC2EDD300BFAAB9 /* Contests */,
+				8FFE43F62BC2EFEE00BFAAB9 /* Encounters */,
 				8FA332642BB0D01300483CFD /* Pokemon */,
 				8F7478B52BB29916008136DF /* Utility */,
 			);
@@ -165,6 +173,23 @@
 				8F7478B32BB297B6008136DF /* Types.swift */,
 			);
 			path = Pokemon;
+			sourceTree = "<group>";
+		};
+		8FFE43EF2BC2EDD300BFAAB9 /* Contests */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE43F02BC2EDFF00BFAAB9 /* Contest Types.swift */,
+				8FFE43F22BC2EF6D00BFAAB9 /* Contest Effects.swift */,
+				8FFE43F42BC2EFCA00BFAAB9 /* Super Contest Effects.swift */,
+			);
+			path = Contests;
+			sourceTree = "<group>";
+		};
+		8FFE43F62BC2EFEE00BFAAB9 /* Encounters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Encounters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +269,7 @@
 				8F7478A42BB28BDF008136DF /* Pokeathlon Stats.swift in Sources */,
 				8F7478B42BB297B6008136DF /* Types.swift in Sources */,
 				8F7478AC2BB292D8008136DF /* Pokemon Habitats.swift in Sources */,
+				8FFE43F12BC2EDFF00BFAAB9 /* Contest Types.swift in Sources */,
 				8FA3326C2BB0D81D00483CFD /* Genders.swift in Sources */,
 				8FA332682BB0D77700483CFD /* Characteristic.swift in Sources */,
 				8F7478A82BB29065008136DF /* Pokemon Colors.swift in Sources */,
@@ -252,6 +278,8 @@
 				8F7478A22BB28A6C008136DF /* Natures.swift in Sources */,
 				8FA3326A2BB0D7D900483CFD /* Egg Groups.swift in Sources */,
 				8FA332622BB0CAA300483CFD /* Pokemon.swift in Sources */,
+				8FFE43F52BC2EFCA00BFAAB9 /* Super Contest Effects.swift in Sources */,
+				8FFE43F32BC2EF6D00BFAAB9 /* Contest Effects.swift in Sources */,
 				8F7478AE2BB2936E008136DF /* Pokemon Shapes.swift in Sources */,
 				8FA332532BB0CA0400483CFD /* ContentView.swift in Sources */,
 				8F2D018D2BC0FFE700C686FE /* Berry Firmnesses.swift in Sources */,

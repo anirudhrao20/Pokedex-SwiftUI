@@ -6,24 +6,24 @@
 //
 
 struct Nature: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var decreased_stat: Stat
-    var increased_stat: Stat
-    var hates_flavor: BerryFlavor
-    var likes_flavor: BerryFlavor
-    var pokeathlon_stat_changes: [NatureStatChange]
-    var move_battle_style_preferences: [MoveBattleStylePreference]
-    var names: [Name]
+    let id: Int
+    let name: String
+    let decreased_stat: Stat
+    let increased_stat: Stat
+    let hates_flavor: BerryFlavor
+    let likes_flavor: BerryFlavor
+    let pokeathlon_stat_changes: [NatureStatChange]
+    let move_battle_style_preferences: [MoveBattleStylePreference]
+    let names: [Name]
 }
 
 struct NatureStatChange: Codable {
-    var max_change: Int
-    var pokeathlon_stat: PokeathlonStat
+    let max_change: Int
+    let pokeathlon_stat: PokeathlonStat
 }
 
 struct MoveBattleStylePreference: Codable {
-    var low_hp_preference: Int
-    var high_hp_preference: Int
-    var move_battle_style: MoveBattleStyle
+    let low_hp_preference: Int
+    let high_hp_preference: Int
+    let move_battle_style: MoveBattleStyle
 }

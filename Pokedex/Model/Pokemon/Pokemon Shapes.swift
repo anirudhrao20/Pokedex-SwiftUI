@@ -6,14 +6,14 @@
 //
 
 struct PokemonShape: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var awesome_names: [AwesomeName]
-    var names: [Name]
-    var pokemon_species: [PokemonSpecies]
+    let id: Int
+    let name: String
+    let awesome_names: [AwesomeName]
+    let names: [Name]
+    let pokemon_species: [PokemonSpecies]
 }
 
 struct AwesomeName: Codable {
-    var awesome_name: String
-    var language: Language
+    let awesome_name: String
+    let language: Language
 }

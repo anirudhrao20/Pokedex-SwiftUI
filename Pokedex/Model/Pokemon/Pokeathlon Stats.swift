@@ -6,18 +6,18 @@
 //
 
 struct PokeathlonStat: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var names: [Name]
-    var affecting_natures: NaturePokeathlonStatAffectSets
+    let id: Int
+    let name: String
+    let names: [Name]
+    let affecting_natures: NaturePokeathlonStatAffectSets
 }
 
 struct NaturePokeathlonStatAffectSets: Codable {
-    var increase: [NaturePokeathlonStatAffect]
-    var decrease: [NaturePokeathlonStatAffect]
+    let increase: [NaturePokeathlonStatAffect]
+    let decrease: [NaturePokeathlonStatAffect]
 }
 
 struct NaturePokeathlonStatAffect: Codable {
-    var max_change: Int
-    var nature: Nature
+    let max_change: Int
+    let nature: Nature
 }

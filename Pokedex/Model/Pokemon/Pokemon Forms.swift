@@ -6,25 +6,25 @@
 //
 
 struct PokemonForm: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var order: Int
-    var form_order: Int
-    var is_default: Bool
-    var is_battle_only: Bool
-    var is_mega: Bool
-    var form_name: String
-    var pokemon: Pokemon
-    var types: [PokemonFormType]
-    var sprites: PokemonFormSprites
-    var version_group: VersionGroup
-    var names: [Name]
-    var form_names: [Name]
+    let id: Int
+    let name: String
+    let order: Int
+    let form_order: Int
+    let is_default: Bool
+    let is_battle_only: Bool
+    let is_mega: Bool
+    let form_name: String
+    let pokemon: Pokemon
+    let types: [PokemonFormType]
+    let sprites: PokemonFormSprites
+    let version_group: VersionGroup
+    let names: [Name]
+    let form_names: [Name]
 }
 
 struct PokemonFormSprites: Codable {
-    var front_defailt: String
-    var front_shiny: String
-    var back_default: String
-    var back_shiny: String
+    let front_defailt: String
+    let front_shiny: String
+    let back_default: String
+    let back_shiny: String
 }

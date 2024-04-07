@@ -6,30 +6,30 @@
 //
 
 struct Abilities: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var is_main_series: Bool
-    var generation: Generation
-    var names: [Name]
-    var effect_entries: [VerboseEffect]
-    var effect_changes: [AbilityEffectChange]
-    var flavor_text_entries: [AbilityFlavorText]
-    var pokemon: [AbilityPokemon]
+    let id: Int
+    let name: String
+    let is_main_series: Bool
+    let generation: Generation
+    let names: [Name]
+    let effect_entries: [VerboseEffect]
+    let effect_changes: [AbilityEffectChange]
+    let flavor_text_entries: [AbilityFlavorText]
+    let pokemon: [AbilityPokemon]
 }
 
 struct AbilityEffectChange: Codable {
-    var effect_entries: [Effect]
-    var version_group: VersionGroup
+    let effect_entries: [Effect]
+    let version_group: VersionGroup
 }
 
 struct AbilityFlavorText: Codable {
-    var flavor_text: String
-    var language: Language
-    var version_group: VersionGroup
+    let flavor_text: String
+    let language: Language
+    let version_group: VersionGroup
 }
 
 struct AbilityPokemon: Codable {
-    var is_hidden: Bool
-    var slot: Int
-    var pokemon: Pokemon
+    let is_hidden: Bool
+    let slot: Int
+    let pokemon: Pokemon
 }

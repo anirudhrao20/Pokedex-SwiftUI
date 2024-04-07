@@ -6,14 +6,14 @@
 //
 
 struct BerryFlavor: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var berries: [FlavorBerryMap]
-    var contest_type: ContestType
-    var names: [Name]
+    let id: Int
+    let name: String
+    let berries: [FlavorBerryMap]
+    let contest_type: ContestType
+    let names: [Name]
 }
 
 struct FlavorBerryMap: Codable {
-    var potency: Int
-    var berry: Berry
+    let potency: Int
+    let berry: Berry
 }

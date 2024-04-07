@@ -6,15 +6,15 @@
 //
 
 struct GrowthRate: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var formula: String
-    var descriptions: [Description]
-    var levels: [GrowthRateExperienceLevel]
-    var pokemon_species: [PokemonSpecies]
+    let id: Int
+    let name: String
+    let formula: String
+    let descriptions: [Description]
+    let levels: [GrowthRateExperienceLevel]
+    let pokemon_species: [PokemonSpecies]
 }
 
 struct GrowthRateExperienceLevel: Codable {
-    var level: Int
-    var experience: Int
+    let level: Int
+    let experience: Int
 }

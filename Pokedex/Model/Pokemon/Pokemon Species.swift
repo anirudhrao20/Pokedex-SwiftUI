@@ -6,52 +6,52 @@
 //
 
 struct PokemonSpecies: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var order: Int
-    var gender_rate: Int
-    var capture_rate: Int
-    var base_happiness: Int
-    var is_baby: Bool
-    var is_legendary: Bool
-    var is_mythical: Bool
-    var hatch_counter: Int
-    var has_gener_differences: Bool
-    var forms_switchable: Bool
-    var growth_rate: GrowthRate
-    var pokedex_numbers: [PokemonSpeciesDexEntry]
-    var egg_groups: [EggGroup]
-    var color: PokemonColor
-    var shape: PokemonShape
-    var evolves_from_species: PokemonSpeciesGender
-    var evolution_chain: EvolutionChain
-    var habitat: PokemonHabitat
-    var generation: Generation
-    var names: [Name]
-    var pal_park_encounters: [PalParkEncounterArea]
-    var flavor_text_entries: [FlavorText]
-    var form_descriptions: [Description]
-    var genera: [Genus]
-    var varieties: PokemonSpeciesVariety
+    let id: Int
+    let name: String
+    let order: Int
+    let gender_rate: Int
+    let capture_rate: Int
+    let base_happiness: Int
+    let is_baby: Bool
+    let is_legendary: Bool
+    let is_mythical: Bool
+    let hatch_counter: Int
+    let has_gener_differences: Bool
+    let forms_switchable: Bool
+    let growth_rate: GrowthRate
+    let pokedex_numbers: [PokemonSpeciesDexEntry]
+    let egg_groups: [EggGroup]
+    let color: PokemonColor
+    let shape: PokemonShape
+    let evolves_from_species: PokemonSpeciesGender
+    let evolution_chain: EvolutionChain
+    let habitat: PokemonHabitat
+    let generation: Generation
+    let names: [Name]
+    let pal_park_encounters: [PalParkEncounterArea]
+    let flavor_text_entries: [FlavorText]
+    let form_descriptions: [Description]
+    let genera: [Genus]
+    let letieties: PokemonSpeciesletiety
 }
 
 struct Genus: Codable { 
-    var genus: String
-    var language: Language
+    let genus: String
+    let language: Language
 }
 
 struct PokemonSpeciesDexEntry: Codable {
-    var entry_number: Int
-    var pokedex: Pokedex
+    let entry_number: Int
+    let pokedex: Pokedex
 }
 
 struct PalParkEncounterArea: Codable {
-    var base_score: Int
-    var rate: Int
-    var area: PalParkArea
+    let base_score: Int
+    let rate: Int
+    let area: PalParkArea
 }
 
-struct PokemonSpeciesVariety: Codable {
-    var is_default: Bool
-    var pokemon: Pokemon
+struct PokemonSpeciesletiety: Codable {
+    let is_default: Bool
+    let pokemon: Pokemon
 }

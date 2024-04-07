@@ -6,8 +6,8 @@
 //
 
 struct BerryFirmness: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var berries: [Berry]
-    var names: [Name]
+    let id: Int
+    let name: String
+    let berries: [Berry]
+    let names: [Name]
 }

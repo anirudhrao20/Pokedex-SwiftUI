@@ -6,21 +6,21 @@
 //
 
 struct Berry: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var growth_time: Int
-    var max_harvest: Int
-    var natural_gift_power: Int
-    var size: Int
-    var smoothness: Int
-    var soil_dryness: Int
-    var firmness: BerryFirmness
-    var flavors: [BerryFlavorMap]
-    var item: Item
-    var natural_gift_type: Type
+    let id: Int
+    let name: String
+    let growth_time: Int
+    let max_harvest: Int
+    let natural_gift_power: Int
+    let size: Int
+    let smoothness: Int
+    let soil_dryness: Int
+    let firmness: BerryFirmness
+    let flavors: [BerryFlavorMap]
+    let item: Item
+    let natural_gift_type: Type
 }
 
 struct BerryFlavorMap: Codable {
-    var potency: Int
-    var flavor: BerryFlavor
+    let potency: Int
+    let flavor: BerryFlavor
 }

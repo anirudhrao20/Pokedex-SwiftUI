@@ -6,28 +6,28 @@
 //
 
 struct Stat: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var game_index: Int
-    var is_battle_only: Bool
-    var affecting_moves: MoveStatAffectSets
-    var affecting_natures: NatureStatAffectSets
-    var characteristics: [Characteristic]
-    var move_damage_class: MoveDamageClass
-    var names: [Name]
+    let id: Int
+    let name: String
+    let game_index: Int
+    let is_battle_only: Bool
+    let affecting_moves: MoveStatAffectSets
+    let affecting_natures: NatureStatAffectSets
+    let characteristics: [Characteristic]
+    let move_damage_class: MoveDamageClass
+    let names: [Name]
 }
 
 struct MoveStatAffectSets: Codable {
-    var increase: [MoveStatAffect]
-    var decease: [MoveStatAffect]
+    let increase: [MoveStatAffect]
+    let decease: [MoveStatAffect]
 }
 
 struct MoveStatAffect: Codable {
-    var change: Int
-    var move: Move
+    let change: Int
+    let move: Move
 }
 
 struct NatureStatAffectSets: Codable {
-    var increase: [Nature]
-    var decease: [Nature]
+    let increase: [Nature]
+    let decease: [Nature]
 }

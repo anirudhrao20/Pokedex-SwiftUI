@@ -6,72 +6,72 @@
 //
 
 struct APIResource: Codable {
-    var url: String
+    let url: String
 }
 
 struct Description: Codable {
-    var description: String
-    var language: Language
+    let description: String
+    let language: Language
 }
 
 struct Effect: Codable {
-    var effect: String
-    var language: String
+    let effect: String
+    let language: String
 }
 
 struct Encounter: Codable {
-    var min_level: Int
-    var max_level: Int
-    var condition_values: [EncounterConditionValue]
-    var chance: Int
-    var method: EncounterMethod
+    let min_level: Int
+    let max_level: Int
+    let condition_values: [EncounterConditionValue]
+    let chance: Int
+    let method: EncounterMethod
 }
 
 struct FlavorText: Codable {
-    var flavor_text: String
-    var language: Language
-    var version: Version
+    let flavor_text: String
+    let language: Language
+    let version: Version
 }
 
 struct GenerationGameIndex: Codable {
-    var game_index: Int
-    var generation: Generation
+    let game_index: Int
+    let generation: Generation
 }
 
 struct MachineVersionDetail: Codable {
-    var machine: Machine
-    var version_group: VersionGroup
+    let machine: Machine
+    let version_group: VersionGroup
 }
 
 struct Name: Codable {
-    var name: String
-    var language: Language
+    let name: String
+    let language: Language
 }
 
 struct NamedAPIResource: Codable {
-    var name: String
-    var url: String
+    let name: String
+    let url: String
 }
 
 struct VerboseEffect: Codable {
-    var effect: String
-    var short_effect: String
-    var language: Language
+    let effect: String
+    let short_effect: String
+    let language: Language
 }
 
 struct VersionEncounterDetail: Codable {
-    var version: Version
-    var max_chance: Int
-    var encounter_details: [Encounter]
+    let version: Version
+    let max_chance: Int
+    let encounter_details: [Encounter]
 }
 
 struct VersionGameIndex: Codable {
-    var game_index: Int
-    var version: Version
+    let game_index: Int
+    let version: Version
 }
 
 struct VersionGroupFlavorText: Codable {
-    var text: String
-    var language: Language
-    var version_group: VersionGroup
+    let text: String
+    let language: Language
+    let version_group: VersionGroup
 }

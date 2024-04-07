@@ -6,89 +6,89 @@
 //
 
 struct Pokemon: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var base_experience: Int
-    var height: Int
-    var is_default: Bool
-    var order: Int
-    var weight: Int
-    var abilities: [PokemonAbility]
-    var forms: [PokemonForm]
-    var game_indices: [VersionGameIndex]
-    var held_items: [PokemonHeldItem]
-    var location_area_encounters: String
-    var moves: [PokemonMove]
-    var past_types: [PokemonTypePast]
-    var sprites: PokemonSprites
-    var cries: PokemonCries
-    var species: PokemonSpecies
-    var stats: [PokemonStat]
-    var types: [PokemonType]
+    let id: Int
+    let name: String
+    let base_experience: Int
+    let height: Int
+    let is_default: Bool
+    let order: Int
+    let weight: Int
+    let abilities: [PokemonAbility]
+    let forms: [PokemonForm]
+    let game_indices: [VersionGameIndex]
+    let held_items: [PokemonHeldItem]
+    let location_area_encounters: String
+    let moves: [PokemonMove]
+    let past_types: [PokemonTypePast]
+    let sprites: PokemonSprites
+    let cries: PokemonCries
+    let species: PokemonSpecies
+    let stats: [PokemonStat]
+    let types: [PokemonType]
 }
 
 struct PokemonAbility: Codable {
-    var is_hidden: Bool
-    var slot: Int
-    var ability: Ability
+    let is_hidden: Bool
+    let slot: Int
+    let ability: Ability
 }
 
 struct PokemonType: Codable {
-    var slot: Int
-    var type: Type
+    let slot: Int
+    let type: Type
 }
 
 struct PokemonFormType: Codable {
-    var slot: Int
-    var type: Type
+    let slot: Int
+    let type: Type
 }
 
 struct PokemonTypePast: Codable {
-    var generation: Generation
-    var types: [PokemonType]
+    let generation: Generation
+    let types: [PokemonType]
 }
 
 struct PokemonHeldItem: Codable {
-    var item: Item
-    var version_details: [PokemonHeldItemVersion]
+    let item: Item
+    let version_details: [PokemonHeldItemVersion]
 }
 
 struct PokemonHeldItemVersion: Codable {
-    var version: Version
-    var rarity: Int
+    let version: Version
+    let rarity: Int
 }
 
 struct PokemonMove: Codable {
-    var move: Move
-    var version_group_details: [PokemonMoveVersion]
+    let move: Move
+    let version_group_details: [PokemonMoveVersion]
 }
 
 struct PokemonMoveVersion: Codable {
-    var move_learn_method: MoveLearnMethod
-    var version_group: VersionGroup
-    var level_learned_at: Int
+    let move_learn_method: MoveLearnMethod
+    let version_group: VersionGroup
+    let level_learned_at: Int
 }
 
 struct PokemonStat: Codable {
-    var stat: Stat
-    var effor: Int
-    var base_stat: Int
+    let stat: Stat
+    let effor: Int
+    let base_stat: Int
 }
 
 struct PokemonSprites: Codable {
-    var front_default: String
-    var front_shiny: String
-    var front_female: String
-    var front_shiny_female: String
-    var back_default: String
-    var back_shiny: String
-    var back_female: String
-    var back_shiny_female: String
+    let front_default: String
+    let front_shiny: String
+    let front_female: String
+    let front_shiny_female: String
+    let back_default: String
+    let back_shiny: String
+    let back_female: String
+    let back_shiny_female: String
 }
 
 struct PokemonCries: Codable {
-    var latest: String
-    var legacy: String
+    let latest: String
+    let legacy: String
 }
 
 

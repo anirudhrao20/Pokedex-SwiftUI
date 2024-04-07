@@ -6,33 +6,33 @@
 //
 
 struct Type: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var damage_relations: TypeRelations
-    var past_damage_relations: [TypeRelationsPast]
-    var game_indicies: [GenerationGameIndex]
-    var generation: Generation
-    var move_damage_class: MoveStatAffect
-    var names: [Name]
-    var pokemon: [TypePokemon]
-    var moves: [Move]
+    let id: Int
+    let name: String
+    let damage_relations: TypeRelations
+    let past_damage_relations: [TypeRelationsPast]
+    let game_indicies: [GenerationGameIndex]
+    let generation: Generation
+    let move_damage_class: MoveStatAffect
+    let names: [Name]
+    let pokemon: [TypePokemon]
+    let moves: [Move]
 }
 
 struct TypePokemon: Codable {
-    var slot: Int
-    var pokemon: Pokemon
+    let slot: Int
+    let pokemon: Pokemon
 }
 
 struct TypeRelations: Codable {
-    var no_damage_to: [Type]
-    var half_damage_to: [Type]
-    var double_damage_to: [Type]
-    var no_damage_from: [Type]
-    var half_damage_from: [Type]
-    var double_damage_from: [Type]
+    let no_damage_to: [Type]
+    let half_damage_to: [Type]
+    let double_damage_to: [Type]
+    let no_damage_from: [Type]
+    let half_damage_from: [Type]
+    let double_damage_from: [Type]
 }
 
 struct TypeRelationsPast: Codable {
-    var generation: Generation
-    var damage_relations: TypeRelations
+    let generation: Generation
+    let damage_relations: TypeRelations
 }

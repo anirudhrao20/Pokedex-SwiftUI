@@ -6,6 +6,6 @@
 //
 
 struct LocationAreaEncounter: Codable {
-    var location_area: LocationArea
-    var version_details: [VersionEncounterDetail]
+    let location_area: LocationArea
+    let version_details: [VersionEncounterDetail]
 }

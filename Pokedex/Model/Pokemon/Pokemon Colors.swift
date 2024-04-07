@@ -6,8 +6,8 @@
 //
 
 struct PokemonColor: Identifiable, Codable {
-    var id: Int
-    var name: String
-    var names: [Name]
-    var pokemon_species: [PokemonSpecies]
+    let id: Int
+    let name: String
+    let names: [Name]
+    let pokemon_species: [PokemonSpecies]
 }
